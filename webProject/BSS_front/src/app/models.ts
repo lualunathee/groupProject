@@ -50,11 +50,10 @@ export interface AuthToken {
 export interface Team {
   name: string;
   age: number;
-  role: string;
 }
 
 export const team:Team[] = [
-  {name: "Bayashat", age: 20, role: "Project Manager"},
-  {name: "Sanzhar", age: 19, role: "Back-End Developer"},
-  {name: "Serzhan", age: 19, role: "Front-End Developer"},
+  {name: "Danelya", age: 19},
+  {name: "Alua", age: 19 },
+  {name: "Akbota", age: 19}
 ]

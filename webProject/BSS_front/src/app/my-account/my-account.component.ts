@@ -15,12 +15,12 @@ export class MyAccountComponent implements OnInit {
 
   currentAcc = {
     id: 1,
-    name: "Shang",
-    surname: "Qi",
+    name: "Zhibek",
+    surname: "Kenzhebekova",
     img: "",
     age: 20,
-    orderStory: ["Lanzhou Noodles", "Risotto"],
-    addInfo: "Single and good-looking. Favorite food category Fast food.",
+    orderStory: ["Sorpa", "Kuyrdak"],
+    addInfo: "Single and good-looking. Favorite food category Kazakh cuisine.",
   }
 
 }
