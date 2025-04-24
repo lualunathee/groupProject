@@ -1,15 +1,15 @@
 from django.urls import path
 
+from rest_framework_jwt.views import obtain_jwt_token
+
 # from api.views import ProductListAPIView, ProductDetailAPIVIEW, catergory_list, catergory_detail, catergory_products
 
-from rest_framework_simplejwt.views import TokenObtainPairView  # ← добавь вот это
 from api.views import *
 
 
 
-
 urlpatterns = [
-    path('login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('login/', obtain_jwt_token),
 
     path('categories/', CategoryListAPIView.as_view()),
     path('categories/<int:pk>/', CategoryDetailAPIVIEW.as_view()),
