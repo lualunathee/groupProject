@@ -6,7 +6,7 @@
 }
 
 .head {
-  background-color: rgba(210, 232, 153, 0.717);
+  background-color: rgba(251, 247, 181, 0.717);
   padding: 1%;
   text-align: center;
 }
@@ -56,5 +56,5 @@
 }
 
 .botButtons:hover {
-  color: rgb(0, 13, 255);
+  color: rgb(255, 218, 185);
 }
