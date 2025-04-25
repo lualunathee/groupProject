@@ -2,7 +2,7 @@
   margin: 3%;
   padding: 4%;
   background-color: rgb(207, 212, 212);
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .head {
@@ -11,23 +11,30 @@
   text-align: center;
 }
 
-.content {
+.content-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
   background-color: gainsboro;
-  padding: 1%;
-  margin-top: 20px;
-  border: 2px black solid;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
-.contentRight {
-  margin-left: 40%;
+.content-row.reverse {
+  flex-direction: row-reverse;
 }
 
-.contentLeft {
-  margin-right: 40%;
+.content-row img {
+  width: 220px;
+  height: auto;
+  border-radius: 15px;
+  border: 3px solid gray;
 }
 
-.bot {
-  margin-top: 100px;
+.text-block {
+  flex: 1;
 }
 
 .icons {
@@ -39,6 +46,10 @@
   float: right;
 }
 
+.bot {
+  margin-top: 100px;
+}
+
 .botButtons {
   text-decoration: none;
   margin-right: 20px;
@@ -46,37 +57,4 @@
 
 .botButtons:hover {
   color: rgb(0, 13, 255);
-}
-
-.img {
-  height: 170px;
-  border: 4px gray solid;
-  border-radius: 20px;
-}
-
-#img1 {
-  position: absolute;
-  top: 440px;
-  right: 25%;
-}
-#img2 {
-  position: absolute;
-  top: 640px;
-  left: 23%;
-}
-#img3 {
-  position: absolute;
-  top: 855px;
-  right: 27%;
-}
-#img4 {
-  position: absolute;
-  top: 1090px;
-  left: 12%;
-  height: 230px;
-}
-#img5 {
-  position: absolute;
-  top: 1390px;
-  right: 27%;
 }
